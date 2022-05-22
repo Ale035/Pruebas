@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">  
+</head>
+<body>
+    <div>
+        <h2>SINTESIS CURRICULAR</h2>
+        <p>
+        <img id="Perfil" src="/images/Foto.jpg" height="15%" width="15%">
+        </p>
+            <h2>DATOS PERSONALES</h2>
+                <h4> Nombres: Alejandro José Rafael</h4>
+                <h4> Apellidos: Pérez López</h4>
+                <h4> Nacionalidad: Venezolano</h4>
+                <h4> Cedula de Identidad: 30.463.851</h4>
+                <h4> Apellidos: Pérez López</h4>
+                <h4> Estado Civil: Soltero</h4>
+                <h4> Fecha de Nacimiento: 03 de Octubre de 2003</h4>
+                <h4> Dirección:San Juan de los Morros- Estado Guárico. <br> AV. Simón Bolívar. Urbanismo Hugo Chávez. <br> Torre 3. Apartamento A-1. </h4>
+            <h2>REDES SOCIALES</h2>
+                <h4><A HREF="https://www.facebook.com/AlejandroUw0"><img src="/images/Facebook.png" height="5%" width="5%">Facebook</A> </h4>
+                <h4><A HREF="https://twitter.com/AkumaYTUwU"><img src="/images/Twitter.png" height="5%" width="5%">Twitter</A></h4>
+                <h4><A HREF="https://github.com/Ale035"><img src="/images/Github.png" height="8%" width="8%">Github</A></h4>
+     
+        
+        
+            <h2>FORMACIÓN ACADÉMICA</h2>
+                <h4>Educación primaria: U.E "Amalia de Lara"</h4>
+                <h4>Educación secundaria: U.E.N “José Félix Ribas”</h4>
+                <h4>Titulo obtenido: Bachiller Integral. </h4>
+                <h4>Cursando 4to semestre de Ing. Informatica en la U.N.E "Rómulo Gallegos"</h4>
+            <h2>EXPERIENCIA LABORAL</h2>
+                <h4>Docente del curso de introduccion a la programacion en la U.E.N "José Félix Ribas"</h4>
+                <h4>Diseño de tarjetas de presentacion</h4>
+                <h4>Edicion y retoque fotografico</h4>
+            <h2>HABILIDADES Y DESTREZAS</h2>
+                <h4>Manejo administrativo de oficina.</h4>
+                <h4>Diseño de algoritmos</h4>
+                <h4>Dominio de ingles</h4>
+                <h4>Manejo de programas de edición de audio</h4>
+                <h4>Manejo de programas de edición de video</h4>
+                <h4>Manejo de programas de diseño grafico</h4>
+                <h4> </h4>
+                <h4> </h4>
+                <h4> </h4>
+                <h4> </h4>
+                <h4> </h4>
+                <h4> </h4>
+    </div>
+</div>
+
+<div class="form">
+    <form class="form" action="/" method="POST">
+        <h2>Contacto</h2>
+        <p type="Nombre:">
+            <input name="nombre" placeholder="indique su nombre completo..." value="<%= tarea.nombre%>">
+           
+
+        <p type="Email:">
+            <input name="email" placeholder="indique su Email..." value="<%= tarea.email%>">
+        </p>
+
+        <p type="Comentario:">
+            <input name="comentario" placeholder="Dejenos su comentario..." value="<%= tarea.comentario%>">
+        </p>
+            <button type="submit">Enviar mensaje</button>
+            <input type="hidden" name="ip" value="<%= tarea.ip%>"/>
+            <input type="hidden" name="fecha" value="<%= tarea.fecha%>">
+            
+                <span class="fa fa-phone"></span> 0416-3098826
+                <span class="fa fa-envelope-o"></span> alejrpl413x@gmail.com
+    <form>
+</div>
+</body>
+</html>
